@@ -1,0 +1,910 @@
+
+/** responsive for screen 760px to 1224px  **/
+
+@media (min-width:760px) and (max-width:1234px){
+
+    #toTop{
+        bottom: 40px;
+        right: 18px;
+    }
+    
+    .icon {
+        width: 43px;
+    }
+    header{
+        width: 100%;
+    }
+    .container{
+        width: 98%;
+    }
+    .logo h1{
+        min-width: 170px;
+    }
+    nav{
+        width: 70%;
+        min-width: 540px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    nav ul{
+        padding: 0 15px;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    nav ul li{
+        min-width:70px;
+    }
+    nav ul li a{
+        min-width: 70px;
+    }
+
+/* Start slider style *******************/
+    .slider{
+        width: 100%;
+        height: 70vh;
+        min-height: 500px;
+    }
+    .slider-text{
+        min-width: 700px;
+    }
+    .slider-text h1{
+        font-size: 46px;
+        line-height: 66px;
+    }
+    .slider-discr{
+        width: 85%;
+        margin: 0 auto 80px;
+        text-align: center;
+    }
+/**  End Slider Style **********************/
+.correction{
+    width: 100%;
+    height: 40px;
+}
+/**  features section style ****************/
+    .features{       
+        width: 100%;
+        min-height: 700px;
+    }
+    .title{
+        padding-bottom: 10px;
+    }
+    .title p{
+        width: 70%;
+    }
+    .features-description{
+        width: 50%;
+        min-width: 300px;
+        padding: 5px;
+    }
+    .features-image{
+        width: 36%;
+        min-width: 300px;
+        position: relative;
+    }
+    .f-icon{
+        width: 10%;
+        min-width: 80px;
+        height: 80px;
+        text-align: center;
+    }
+    .f-icon i{
+        font-size: 40px;
+        color: #2d1b63;
+        line-height: 80px;
+    }
+    .f-text{
+        width: 90%;
+        min-width: 250px;
+        padding-left: 20px;   
+    }
+    .f-text p{
+        width: 100%;
+    }
+/** End features section style ***********/
+
+/** Start technology section style ***********/
+    .technology{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .tech-image{
+        width: 40%;
+        min-width: 360px;
+    }
+    .tech-text{
+        width: 40%;
+        min-width: 360px;
+        padding: 10px;
+    }
+    .explore{
+        margin-top: 40px;
+    }
+/** End technology section style ***********/
+
+/** Start control section style ***********/
+    .control{
+        width: 100%;
+    }
+    .control-image{
+        width: 40%;
+        min-width: 360px;
+    }
+    .control-image img{
+        width: 150%;
+    }
+    .control-discr{
+        width: 60%;
+        min-width: 500px;
+    }
+    .tips1{
+        width: 48%;
+        min-width: 240px;
+    }
+    .tips1 h1{
+        font-size: 46px;
+        margin: 0;
+    }
+    .tips1 h3{
+        margin: 0;
+    }
+/** End control section style ***********/
+
+/** start gallery section style ***********/
+    .gallery{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .gallery-text{
+        width: 100%;
+        text-align: center;
+    }
+    .gallery-text p{
+        width: 75%;
+    }
+    .gallery-image{
+        width: 96%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: 200px;
+        column-gap: 20px;
+        row-gap: 1em;
+    }
+    .small-img, .center-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
+    }
+    .small-img img{
+        display: inline-block;
+        width: 80%;
+        padding: 10px;
+    }
+    .center-img img{
+        width: 100%;
+    }
+/** End Gallery section ************************/
+
+/** start product display section ************/
+    .product-display{
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .product-image{
+        width: 70%;
+    }
+    .product-image img{
+        width: 100%;
+    }
+    .call-to-action{
+        width: 70%;
+    }
+/** End product display section ************************/
+
+/** start testimonial section ************/
+    .testimonial{
+        width: 100%;
+        min-height: 500px;
+    }
+    .test-text{
+        width: 48%;
+        min-width: 320px;
+        margin: 10px;
+    }
+    .test-image{
+        width: 35%;
+        min-width: 320px;
+        margin: 30px 10px 30px 30px;
+    }
+    .test-image img{
+        width: 130%;
+    }
+/** end testimonial section ************/
+
+/** star FAQ section *******************/
+    .faq{
+        width: 90%;
+    }
+    .faq> p{
+        width: 80%;
+    }
+/** end FAQ section *******************/
+
+/** start footer **********************/
+    footer{
+        width: 100%;
+    }
+    .footer-content{
+        width: 80%;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .get-in-touch{
+        width: 80%;
+        min-width: 600px;
+        padding:25px 60px;
+    }
+    .about-us, .more-info{
+        width: 40%;
+        min-width: 280px;
+        padding:0 15px 0 50px;
+    }
+    .about-us{
+        border-right: 2px solid #935773;
+    }
+/** End footer **********************/
+}
+/** End responsive for screen 760px to 1224px  **/
+
+
+
+
+
+/** start responsive for screen 576px to 759px  **/
+@media (min-width:576px) and (max-width:759.5px){
+
+    #toTop{
+        bottom: 40px;
+        right: 15px;
+    }
+    
+    .icon {
+        width: 40px;
+    }
+    header{
+        position: absolute;
+    }
+    nav{
+        width: 60px;
+        min-width: 60px;
+        justify-content: right;
+    }
+    nav ul{
+        display: none;
+    }
+    nav span{
+        display: block;
+    }
+
+/* Start slider style *******************/
+    .slider{
+        width: 100%;
+        height: 130vh;
+        max-height: 500px;
+    }
+    .slider-text{
+        min-width: 570px;
+    }
+    .slider-text h1{
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .slider-discr{
+        width: 90%;
+        margin: 0 auto 60px;
+    }
+    .correction{
+        width: 100%;
+        height: 30px;
+    }
+/**  End Slider Style **********************/
+
+/**  features section style ****************/
+    .features{       
+        width: 100%;
+        min-height: 700px;
+        flex-direction: column;
+    }
+    .title{
+        padding-bottom: 10px;
+    }
+    .title p{
+        width: 90%;
+    }
+    .features-description{
+        width: 100%;
+        min-width: 300px;
+        padding: 5px 0;
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .feature1{
+        width: 46%;
+        margin-bottom: 20px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: 8px;
+    }
+
+    .f-icon{
+        min-width: 60px;
+        height: 80px;
+    }
+    .f-icon i{
+        font-size: 30px;
+        line-height: 80px;
+    }    
+    .f-text{
+        width: 100%;
+        min-width: 160px;
+        padding: 5px;   
+    }
+    .f-text h3{
+        padding-top: 15px;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .f-text p{
+        padding: 15px 5px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .features-image{
+        width: 70%;
+        min-width: 300px;
+        max-height: 560px;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+/** End features section style ***********/
+
+/** Start technology section style ***********/
+    .technology{
+        width: 100%;
+        margin: 50px 0;
+        flex-direction: column-reverse;
+    }
+    .tech-image{
+        width: 60%;
+        min-width: 360px;
+        margin-top: 30px;
+    }
+    .tech-text{
+        width: 90%;
+        min-width: 360px;
+        padding: 10px;
+    }
+    .explore{
+        margin-top: 30px;
+    }
+/** End technology section style ***********/
+
+    /** Start control section style ***********/
+    .control{
+        width: 100%;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    .control-text{
+        width: 100%;
+        min-width: 570px;
+        text-align: center;
+    }
+    .control-text p{
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+    .control-image{
+        width: 40%;
+        min-width: 360px;
+    }
+    .control-image img{
+        width: 150%;
+    }
+    .control-discr{
+        width: 90%;
+        min-width: 500px;
+    }
+    .tips1{
+        width: 48%;
+        min-width: 240px;
+        padding: 15px;
+        margin-top: 20px;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    .tips1 h1{
+        font-size: 46px;
+        margin: 0;
+    }
+    .tips1 h3{
+        margin: 0;
+    }
+/** End control section style ***********/
+
+/** start gallery section style ***********/
+    .gallery{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .gallery-text{
+        width: 100%;
+        text-align: center;
+    }
+    .gallery-text p{
+        width: 90%;
+    }
+    .gallery-image{
+        width: 90%;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 200px;
+        column-gap: 20px;
+        row-gap: 1.6em;
+    }
+    .small-img, .center-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
+    }
+    .small-img img{
+        display: inline-block;
+        width: 70%;
+        padding: 10px;
+    }
+    .center-img img{
+        width: 100%;
+    }
+/** End Gallery section ************************/
+
+/** start product display section ************/
+    .product-display{
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .product-image{
+        width: 90%;
+    }
+    .product-image img{
+        width: 100%;
+    }
+    .call-to-action{
+        width: 90%;
+    }
+/** End product display section ************************/
+
+/** start testimonial section ************/
+    .testimonial{
+        width: 100%;
+        min-height: 500px;
+        flex-direction: column;
+    }
+    .test-text{
+        width: 90%;
+        min-width: 320px;
+        margin: 10px;
+    }
+    .test-image{
+        width: 80%;
+        min-width: 320px;
+        margin: 30px 0px 30px 50px;
+    }
+    .test-image img{
+        width: 100%;
+    }
+/** end testimonial section ************/
+
+/** star FAQ section *******************/
+    .faq{
+        width: 90%;
+    }
+    .faq> p{
+        width: 100%;
+    }
+/** end FAQ section *******************/
+
+/** start footer **********************/
+    footer{
+        width: 100%;
+    }
+    .footer-content{
+        width: 90%;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .get-in-touch{
+        width: 80%;
+        min-width: 600px;
+        padding:25px 60px;
+    }
+    .about-us, .more-info{
+        width: 40%;
+        min-width: 240px;
+        padding:0 15px 0 50px;
+    }
+    .about-us{
+        border-right: 2px solid #935773;
+    }
+    .copyright{
+        flex-direction: column;
+    }
+/** End footer **********************/
+}
+/** start responsive for screen 576px to 759px  **/
+
+
+
+
+
+/** start responsive for screen 320px to 576px  **/
+@media (min-width:320px) and (max-width:575.5px){
+    #toTop{
+        bottom: 36px;
+        right: 10px;
+    }
+    
+    .icon {
+        width: 35px;
+    }
+    .container{
+        width: 94%;
+    }
+    header{
+        position: absolute;
+    }
+    .logo h1{
+        min-width: 150px;
+        padding: 0;
+    }
+    nav{
+        width: 60px;
+        min-width: 60px;
+        justify-content: right;
+    }
+    nav ul{
+        display: none;
+    }
+    nav span{
+        display: block;
+        margin: 0;
+    }
+    .drop-down-menu ul li a{
+        width: 200px;
+    }
+    .drop-down-menu ul li:nth-child(5) a{
+        width: 200px;
+    }
+
+/* Start slider style *******************/
+    .slider{
+        width: 100%;
+        height: 100vh;
+        max-height: 560px;
+        background-position: right;
+    }
+    .slider-text{
+        width: 90%;
+        min-width: 300px;
+    }
+    .slider-text h1{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .slider-discr{
+        width: 100%;
+        font-size: 13px;
+        margin: 0 auto 120px;
+    }
+    .order-now, .learn-more{
+        margin: 10px 20px;
+        border-radius: 6px;
+        padding: 10px 40px;
+    }
+    .correction{
+        width: 100%;
+        height: 88px;
+    }
+/**  End Slider Style **********************/
+
+/**  features section style ****************/
+    .features{       
+        width: 100%;
+        min-height: 700px;
+        flex-direction: column;
+    }
+    .title{
+        padding-bottom: 10px;
+    }
+    .section-title{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .title p{
+        width: 90%;
+        font-size: 14px;
+    }
+    .features-description{
+        width: 100%;
+        min-width: 280px;
+        padding: 5px 0;
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feature1{
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: 8px;
+    }
+
+    .f-icon{
+        min-width: 60px;
+        height: 80px;
+    }
+    .f-icon i{
+        font-size: 30px;
+        line-height: 80px;
+    }    
+    .f-text{
+        width: 100%;
+        min-width: 160px;
+        padding: 5px;   
+    }
+    .f-text h3{
+        padding-top: 15px;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .f-text p{
+        padding: 15px 5px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .features-image{
+        width: 70%;
+        min-width: 280px;
+        max-height: 560px;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+/** End features section style ***********/
+
+/** Start technology section style ***********/
+    .technology{
+        width: 100%;
+        min-width: 310px;
+        margin: 20px 0;
+        flex-direction: column-reverse;
+    }
+    .tech-image{
+        width: 100%;
+        min-width: 300px;
+        margin-top: 30px;
+    }
+    .tech-text{
+        width: 100%;
+        min-width: 300px;
+        padding: 10px;
+    }
+    .tech-text p{
+        margin-top: 35px;
+        width: 98%;
+    }
+    .explore{
+        margin-top: 20px;
+    }
+/** End technology section style ***********/
+
+    /** Start control section style ***********/
+    .control{
+        width: 100%;
+        min-width: 300px;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    .control-text{
+        width: 100%;
+        min-width: 300px;
+        text-align: center;
+    }
+    .control-text p{
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+    .control-image{
+        width: 40%;
+        min-width: 300px;
+    }
+    .control-image img{
+        width: 150%;
+    }
+    .control-discr{
+        width: 100%;
+        min-width: 300px;
+    }
+    .control-tips{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tips1{
+        width: 90%;
+        min-width: 240px;
+        padding: 15px;
+        margin-top: 20px;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    .tips1 h1{
+        font-size: 40px;
+        margin: 0;
+    }
+    .tips1 h3{
+        margin: 0;
+    }
+/** End control section style ***********/
+
+/** start gallery section style ***********/
+    .gallery{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .gallery-text{
+        width: 100%;
+        text-align: center;
+    }
+    .gallery-text p{
+        width: 90%;
+    }
+    .gallery-image{
+        width: 90%;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .small-img, .center-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, .2);
+    }
+    .small-img img{
+        display: inline-block;
+        width: 70%;
+        padding: 10px;
+    }
+    .center-img img{
+        width: 100%;
+    }
+/** End Gallery section ************************/
+
+/** start product display section ************/
+    .product-display{
+        width: 100%;
+        padding: 40px 0;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .product-display h3{
+        font-size: 16px;
+    }
+    .product-image{
+        width: 100%;
+        margin: 40px 0;
+    }
+    .product-image img{
+        width: 100%;
+    }
+    .call-to-action{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .price-section, .buy{
+        margin: 0;
+    }
+/** End product display section ************************/
+
+/** start testimonial section ************/
+    .testimonial{
+        width: 100%;
+        min-height: 500px;
+        flex-direction: column;
+    }
+    .test-text{
+        width: 90%;
+        min-width: 280px;
+        margin: 10px;
+    }
+    .test-image{
+        width: 80%;
+        min-width: 280px;
+        margin: 30px 0px 30px 40px;
+    }
+    .test-image img{
+        width: 100%;
+    }
+/** end testimonial section ************/
+
+/** star FAQ section *******************/
+    .faq{
+        width: 90%;
+    }
+    .faq> p{
+        width: 100%;
+    }
+/** end FAQ section *******************/
+
+/** start footer **********************/
+    footer{
+        width: 100%;
+    }
+    .footer-content{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .get-in-touch{
+        width: 100%;
+        min-width: 240px;
+        padding:25px;
+    }
+    .about-us, .more-info{
+        width: 40%;
+        min-width: 300px;
+        text-align: center;
+        padding:0;
+    }
+    .about-us{
+        border-right:none;
+    }
+    .copyright{
+        flex-direction: column;
+        text-align: center;
+    }
+/** End footer **********************/
+}

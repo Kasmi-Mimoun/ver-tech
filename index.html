@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>landing page</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap">
+        <script src="https://kit.fontawesome.com/f8d7a9e5d1.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body onscroll="scrolling()">
+
+    <!-- fixed header start -->
+        <header id="header" style="height: 82px;">
+            <div class="container">
+                <div class="logo">
+                    <h1>Vir-Tech</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#features">features</a></li>
+                        <li><a href="#technology">technology</a></li>
+                        <li><a href="#testimonial">testimonials</a></li>
+                        <li><a href="#order">order now</a></li>
+                    </ul>
+                    <span onclick="dropdown()"><i class="fas fa-bars" id="bt-menu"></i></span>
+                </nav>
+            </div>
+            <div class="drop-down-menu">
+                <ul>
+                    <li><a href="#home" onclick="hideMenu()">home</a></li>
+                    <li><a href="#features" onclick="hideMenu()">features</a></li>
+                    <li><a href="#technology" onclick="hideMenu()">technology</a></li>
+                    <li><a href="#testimonial" onclick="hideMenu()">testimonials</a></li>
+                    <li><a href="#order" onclick="hideMenu()">order now</a></li>
+                </ul>
+            </div>
+        </header>
+    <!-- end header -->
+
+    <!-- slider start -->
+        <div id="home" class="slider">
+            <div class="blur"></div>
+            <div class="slider-text">
+                <h1 class="slider-title">With our Technology, You'll be <span>Virtually</span> Indestructible !</h1>
+                <p class="slider-discr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae maxime, quisquam sapiente, ipsa minima perferendis aliquid official.</p>
+                <button id="order-now" class="order-now">Order Now</button>
+                <button id="learn" class="learn-more">Learn More</button>
+            </div>
+        </div>
+    <!-- slider End -->
+
+        <div class="correction"></div>
+        <div id="toTop">
+            <img class="icon" src="imgs/rocket.svg" alt="Top">
+        </div>
+
+    <!-- Main start -->
+        <main>
+            <div class="back">
+                <div class="container">
+                    <section class="features" id="features">
+                        <div class="title">
+                            <h1 class="section-title">Features</h1>
+                            <p>VIVE Pro is an easy-to-deploy VR system that scales with your business and provides the richest feature set for professional users.</p>
+                        </div>
+                        <div class="features-description">
+                            <div class="feature1">
+                                <div class="f-icon">
+                                    <i class="fas fa-tv"></i>
+                                </div>
+                                <div class="f-text">
+                                    <h3>5.7 Inchs the Oled-Screen</h3>
+                                    <p>Built to meet the needs of today’s most demanding VR users; VIVE Pro delivers the highest fidelity.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature1">
+                                <div class="f-icon">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <div class="f-text">
+                                    <h3>200 Frames Per Second</h3>
+                                    <p>Built to meet the needs of today’s most demanding VR users; VIVE Pro delivers the highest fidelity.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature1">
+                                <div class="f-icon">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                                <div class="f-text">
+                                    <h3>Soft lather Frame</h3>
+                                    <p>Built to meet the needs of today’s most demanding VR users; VIVE Pro delivers the highest fidelity.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature1">
+                                <div class="f-icon">
+                                    <i class="fas fa-tablet-alt"></i>
+                                </div>
+                                <div class="f-text">
+                                    <h3>Compatible With Your Device</h3>
+                                    <p>Built to meet the needs of today’s most demanding VR users; VIVE Pro delivers the highest fidelity.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div id="img1" class="features-image hide">
+                            <img src="imgs/11.jpg" alt="HTC VIVE Pro">
+                            <div class="blur-white"></div>
+                        </div>
+                    </section>
+                </div>
+                    <!-- End features section -->
+                
+                    <!-- start technology section -->
+                <div class="container">
+                    <section id="technology" class="technology">
+                        <div id="img2" class="tech-image hide">
+                            <img src="imgs/tech-1.png" alt="Vive Virtauly Technology">
+                        </div>
+                        <div class="tech-text">
+                            <h1 class="section-title">Our Technology</h1>
+                            <p>VIVE Pro delivers the highest fidelity, clearest audio and most immersive VR experience. VIVE Pro gives you high resolution and increased pixel density for sharper graphics, text, and a better overall viewing experience.
+                            </p>
+                            <button class="explore" id="explore">
+                                Explore More
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+    <!-- End technology section -->
+
+    <!-- start control section -->
+            <section class="control" id="control">
+                <div class="container">
+                    <div class="control-text">
+                        <h1 class="section-title">Easy Controlling</h1>
+                        <p>
+                            Hi-res headphones, 3D spatial audio, and active noise cancellation make your virtual experience more enthralling than ever, while adjustable ergonomics customize your comfort level.
+                        </p>
+                    </div>
+                    <div id="img3" class="control-image hide">
+                        <img src="imgs/tech-2.png" alt="Vive Virtauly Technology">
+                    </div>
+                    <div class="control-discr">
+                        <div class="control-tips">
+                            <div class="tips1">
+                                <h1><i class="fab fa-steam-square"></i></h1>
+                                <h3>STEAM VR </h3>
+                                <p>
+                                    Ideal for multi-user environments for sub-millimeter tracking accuracy.
+                                </p>
+                            </div>
+                            <div class="tips1">
+                                <h1><i class="fas fa-dice-d6"></i></h1>
+                                <h3>SPATIAL AUDIO </h3>
+                                <p>
+                                    high impedance headphones, 3D spatial sound with active noise cancellation.
+                                </p>
+                            </div>
+                            <div class="tips1">
+                                <h1><i class="fas fa-vr-cardboard"></i></h1>
+                                <h3>HIGH RESOLUTION</h3>
+                                <p>
+                                    Dual-OLED displays with industry leading resolution of 2880 x 1600 pixels.
+                                </p>
+                            </div>
+                            <div class="tips1">
+                                <h1><i class="fas fa-award"></i></i></h1>
+                                <h3>TRACKER ECOSYSTEM</h3>
+                                <p>
+                                    Expand business use cases by adding real-life objects to VIVE Tracker.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <!-- End control section -->
+
+    <!-- start gallery section -->
+            <section class="gallery" id="gallery">
+                <div class="gallery-text">
+                    <h1 class="section-title">Gallery</h1>
+                    <p>
+                        VIVE Pro is an easy-to-deploy VR system that scales with your business and provides the richest feature set for professional users. Cutting-Edge Chaperone Technology Optimized Face Cushion.
+                    </p>
+                </div>
+                <div class="gallery-image">
+                    <div class="small-img"><img src="imgs/vive-virtual-1.png" alt="picture-1"></div>
+                    <div class="center-img"><img  src="imgs/vive-virtual-6.png" alt="picture"></div>
+                    <div class="small-img"><img src="imgs/vive-virtual-2.png" alt="picture-2"></div>
+                    <div class="small-img"><img src="imgs/vive-virtual-4.png" alt="picture-4"></div>
+                    <div class="small-img"><img src="imgs/vive-virtual-3.png" alt="picture-3"></div>
+                </div>
+            </section>
+    <!-- End gallery section -->
+                
+    <!-- start Product display section -->
+            <section id="order" class="product-display">
+                <h1 class="section-title">HTC VIVE Pro Virtual Reality System</h1>
+                <h3>Platform : <span>SteamVR, Windows,Video Game</span></h3>
+                <div class="rate">
+                    <ul class="stars">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star-half-alt"></i></li>
+                        <li><span class="ratings">3,745 Ratings</span></li>
+                    </ul>
+                </div>
+                <div class="product-image">
+                    <img src="imgs/vive-virtual-8.png" alt="Product-Image">
+                </div>
+                <div class="call-to-action">
+                    <div class="price-section">
+                        <label for="stock">Only 7 left in stock</label>
+                        <div class="progress-wrap">
+                            <div class="progress"></div>
+                        </div>
+                        <h1 class="price">From $995.<sup>00</sup></h1>
+                    </div>
+                    <div class="buy">
+                        <div class="harry">
+                            <div class="harry-text">Harry up :</div>
+                            <div id="countDown" class="harry-text"></div>
+                        </div>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </section>
+    <!-- End Product display section -->
+
+    <!-- start testimonial section -->
+            <section id="testimonial" class="testimonial">
+                <h1 class="section-title">what our clients say?</h1>
+                <div class="test-text">
+                    <h4>
+                        <img src="imgs/avatar1.jpg" style="width: 50px; height: 50px; border-radius: 50%; margin-bottom: -20px; margin-right: 7px;">
+                        Dusty Fohs 
+                        <i class="fas fa-check-circle" style="color: darkgreen; margin-left: 7px;"></i>
+                    </h4>
+                    <ul class="stars">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li> ( 5 )</li>
+                    </ul>
+                    <span id="line"></span>
+                    <div class="client-feedback">
+                        <p>This device is life changing. I'm a huge gamer. I'll admit, an unhealthy addict. Sitting in front of a desktop PC doesn't do my body any good at all. It's been causing me anxiety, loss of sleep and disappointment in myself. I was assuming the Vive would just add to it, but I had to have it anyway. The result were entirely unexpected.
+                        </p>
+                        
+                        
+                        <a href="#" class="all-reviews">See all reviews ></a>
+                    </div>
+                </div>
+                <div id="img4" class="test-image hide">
+                    <img src="imgs/tech-3.png" alt="vive stream-vr">
+                </div>
+            </section>
+    <!-- End testimonial section -->
+
+    <!-- start FAQ section -->
+            <section class="faq">
+                <h1 class="section-title">FAQ</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, tenetur reprehenderit eveniet omnis id iusto ullam ad cupiditate suscipit eaque.
+                </p>
+                <article id="question-awnser1" class="question-awnser">
+                    <h3>
+                        <span>Q: </span>
+                        Is this one size fit all? 
+                    </h3>
+                    <p>
+                        <span>A: </span>
+                        Yes we have both children and adults use it. The straps are size to fit, the mask is not but it seems to fit everyone from 7 years old to 40 years old.
+                    </p>
+                    <button id="plus1" class="plus" onclick="showPlus1()">+</button>
+                </article>
+                <article id="question-awnser2" class="question-awnser">
+                    <h3>
+                        <span>Q: </span>
+                        how long is the cord from htc vive to pc? and is it easy to get tangled up in? 
+                    </h3>
+                    <p>
+                        <span>A: </span>
+                        I believe it's probably somewhere around 10-12 feet? Maybe a bit longer. In regards to getting tangled up, you get used to it pretty quickly. Within an hour or two of playing, it was second nature to just step over it and or adjust if it get's tangled on your leg.
+                    </p>
+                    <button id="plus2" class="plus" onclick="showPlus2()">+</button>
+                </article>
+                <article id="question-awnser3" class="question-awnser">
+                    <h3>
+                        <span>Q: </span>
+                        Is this one size fit all? 
+                    </h3>
+                    <p>
+                        <span>A: </span>
+                        Yes we have both children and adults use it. The straps are size to fit, the mask is not but it seems to fit everyone from 7 years old to 40 years old.
+                    </p>
+                    <button id="plus3" class="plus" onclick="showPlus3()">+</button>
+                </article>
+                <article id="question-awnser4" class="question-awnser">
+                    <h3>
+                        <span>Q: </span>
+                        how long is the cord from htc vive to pc? and is it easy to get tangled up in? 
+                    </h3>
+                    <p>
+                        <span>A: </span>
+                        I believe it's probably somewhere around 10-12 feet? Maybe a bit longer. In regards to getting tangled up, you get used to it pretty quickly. Within an hour or two of playing, it was second nature to just step over it and or adjust if it get's tangled on your leg.
+                    </p>
+                    <button id="plus4" class="plus" onclick="showPlus4()">+</button>
+                </article>
+                <article id="question-awnser5" class="question-awnser">
+                    <h3>
+                        <span>Q: </span>
+                        Is this one size fit all? 
+                    </h3>
+                    <p>
+                        <span>A: </span>
+                        Yes we have both children and adults use it. The straps are size to fit, the mask is not but it seems to fit everyone from 7 years old to 40 years old.
+                    </p>
+                    <button id="plus5" class="plus" onclick="showPlus5()">+</button>
+                </article>
+            </section>
+    <!-- End FAQ section -->
+        </main>
+    <!-- start footer section -->
+        <footer>
+            <div class="footer-content">
+                <div class="get-in-touch">
+                    <h3 class="section-title">get in touch</h3>
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <textarea name="message" id="message" cols="30" rows="4" placeholder="message"></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+
+                <div class="about-us">
+                    <h3 class="section-title">about us</h3>
+                    <ul>
+                        <li><a href="#">prevacy policy</a></li>
+                        <li><a href="#">return policy</a></li>
+                        <li><a href="#">shipping policy</a></li>
+                        <li><a href="#">terms of service</a></li>
+                        <li><a href="#">about us</a></li>
+                    </ul>
+                </div>
+                <div class="more-info">
+                    <h3 class="section-title">more information</h3>
+                    <ul>
+                    <li><address>Bloc 6 N 492 Aklim</address></li>
+                        <li>Email: vr-tech@email.com</li>
+                        <li>Phone: +212617-xxx-xxx</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>coded by KASMI MIMOUN all right reserved © 2021</p>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        
+    <!-- Main End -->
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
